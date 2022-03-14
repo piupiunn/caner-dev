@@ -1,38 +1,112 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 1150px;
+  vertical-align: baseline;
+}
+.inside-1 {
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+}
+.icon-1 {
+  border-image-width: 1;
+  box-sizing: border-box;
+  display: block;
+  height: 95px;
+  left: 520px;
+  margin-left: -75px;
+  margin-right: 0;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+/**/
+
+.flex-2 {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 525px;
+}
+.inside-2 {
+  display: block;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+}
+.icon-2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 120px 60px;
+  display: block;
+  height: 50px;
+  left: 257.5px;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 130px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/**/
+
+.flex-3 {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 349.984px;
+}
+.inside-3 {
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+}
+.icon-3 {
+  box-sizing: border-box;
+  height: 110px;
+  left: 196.984px;
+  margin-bottom: 0;
+  margin-left: -29.5px;
+  margin-right: 0;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 59px;
 }
