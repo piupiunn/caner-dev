@@ -7,7 +7,8 @@
   flex-wrap: wrap;
   text-align: center;
 }
-.flex-1 {
+/**/
+.flex-1-me {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
@@ -18,7 +19,50 @@
 
   border: 1px solid;
 }
-.inside-1 {
+.inside-1-me {
+  display: block;
+  background-color: #aae3eb;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+}
+.icon-1-me {
+  border-image-width: 1;
+  box-sizing: border-box;
+  display: block;
+  height: 95px;
+  left: 50%;
+  margin-left: -75px;
+  margin-right: 0;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 150px;
+  border: 1px solid;
+}
+
+/**/
+/**/
+
+.flex-1-works {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+
+  border: 1px solid;
+}
+.inside-1-works {
   display: block;
 
   flex-grow: 1;
@@ -31,7 +75,7 @@
   text-align: center;
   border: 1px solid;
 }
-.icon-1 {
+.icon-1-works {
   border-image-width: 1;
   box-sizing: border-box;
   display: block;
@@ -49,7 +93,7 @@
 
 /**/
 
-.flex-2 {
+.flex-2-javascript {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -58,7 +102,7 @@
   width: 48.84%;
   border: 1px solid;
 }
-.inside-2 {
+.inside-2-javascript {
   display: block;
   padding-bottom: 60px;
   padding-left: 40px;
@@ -67,23 +111,141 @@
   position: relative;
   text-align: center;
   border: 1px solid;
+  background-color: #46ab88;
 }
-.icon-2 {
+.icon-2-javascript {
   border-top-left-radius: 10px;
-
   display: block;
-  height: 50px;
+  height: 111px;
   left: 50%;
   margin-left: -90px;
   position: absolute;
   text-align: center;
-  top: 115px;
-  width: 130px;
-  border: 1px solid;
+  top: 30px;
+  width: 171px;
+}
+.icon-2-javascript img {
+  height: 150px;
 }
 
 /**/
 
+/**/
+
+.flex-2-react {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 48.84%;
+  border: 1px solid;
+}
+.inside-2-react {
+  display: block;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+  background-color: #444444;
+}
+.icon-2-react {
+  border-top-left-radius: 10px;
+  display: block;
+  left: 50%;
+  margin-left: -70px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+
+  width: 100x;
+  height: 150px;
+}
+.icon-2-react img {
+  height: 150px;
+}
+
+/**/
+
+/**/
+
+.flex-2-css {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 48.84%;
+  border: 1px solid;
+}
+.inside-2-css {
+  display: block;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+  background-color: #caedef;
+}
+.icon-2-css {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-2-css img {
+  height: 150px;
+}
+
+/**/
+/**/
+
+.flex-2-html {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 48.84%;
+  border: 1px solid;
+}
+.inside-2-html {
+  display: block;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+  background-color: #ba545e;
+}
+.icon-2-html {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-2-html img {
+  height: 150px;
+}
+
+/**/
 .flex-3 {
   padding-left: 10px;
   padding-top: 10px;
