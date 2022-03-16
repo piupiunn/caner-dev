@@ -131,7 +131,16 @@ function App() {
         <div className="inside-3-frameworks">
           <h4>Css frameworks</h4>
           <div className="icon-3-frameworks">
-            <img src="*" alt="*" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+              alt="*"
+            />
+            <img src="https://mui.com/static/logo.png" alt="*" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+              alt="*"
+            />
+            <img src="https://www.chartjs.org/img/chartjs-logo.svg" alt="*" />
             <p>
               Libraries I've worked on more or less; Reactsrap, Material UI,
               Bootstrap and Chartjs
@@ -143,7 +152,10 @@ function App() {
         <div className="inside-1-works">
           <div className="icon-1-works">
             <h4>My Projects</h4>
-            <img src="*" alt="*" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4826/4826140.png"
+              alt="*"
+            />
             <p>Yes</p>
           </div>
         </div>
