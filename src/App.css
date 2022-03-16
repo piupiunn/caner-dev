@@ -6,6 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  color: white;
+  font-family: "Poiret One", cursive;
 }
 /**/
 .flex-1-me {
@@ -13,9 +15,10 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
   width: 1880px;
+  color: black;
 }
 .inside-1-me {
   display: block;
@@ -88,8 +91,7 @@
 .flex-2-javascript {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+
   text-align: center;
   width: 929px;
 }
@@ -110,7 +112,6 @@
   position: absolute;
 }
 .icon-2-javascript {
-  border-top-left-radius: 10px;
   display: block;
   height: 111px;
   left: 50%;
@@ -132,11 +133,8 @@
 /**/
 
 .flex-2-react {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   text-align: center;
+  padding-left: 10px;
   width: 929px;
 }
 .inside-2-react {
@@ -182,7 +180,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+
   text-align: center;
   width: 929px;
 }
@@ -194,7 +192,7 @@
   padding-top: 200px;
   position: relative;
   text-align: center;
-
+  color: black;
   background-color: #caedef;
 }
 .inside-2-css h4 {
@@ -227,7 +225,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+
   text-align: center;
   width: 929px;
 }
@@ -272,6 +270,7 @@
   padding-top: 10px;
   text-align: center;
   width: 622px;
+  color: black;
 }
 .inside-3-git {
   padding-bottom: 60px;
@@ -311,6 +310,7 @@
   padding-top: 10px;
   text-align: center;
   width: 622px;
+  color: black;
 }
 .inside-3-github {
   padding-bottom: 60px;
@@ -319,7 +319,7 @@
   padding-top: 200px;
   position: relative;
   text-align: center;
-  margin-right: 5px;
+
   background-color: #b1ad83;
 }
 .inside-3-github h4 {
@@ -332,14 +332,15 @@
   display: block;
   height: 111px;
   left: 50%;
-  margin-left: -90px;
+  margin-left: -110px;
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 50px;
   width: 171px;
 }
 .icon-3-github p {
-  margin-bottom: 5px;
+  margin-top: -45px;
+  margin-left: 50px;
 }
 .icon-3-github img {
   height: 150px;
@@ -379,7 +380,8 @@
   width: 171px;
 }
 .icon-3-npm p {
-  margin-bottom: 5px;
+  margin-top: -26px;
+  margin-left: 5px;
 }
 .icon-3-npm img {
   height: 150px;
@@ -391,6 +393,7 @@
   padding-top: 10px;
   text-align: center;
   width: 622px;
+  color: black;
 }
 .inside-3-formatters {
   padding-bottom: 60px;
@@ -399,7 +402,7 @@
   padding-top: 200px;
   position: relative;
   text-align: center;
-  margin-right: 5px;
+
   background-color: #f4eb93;
 }
 .inside-3-formatters h4 {
@@ -451,7 +454,7 @@
   padding-top: 200px;
   position: relative;
   text-align: center;
-  margin-right: 5px;
+
   background-color: #475163;
 }
 .inside-3-redux h4 {
@@ -467,14 +470,16 @@
   margin-left: -90px;
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 40px;
   width: 171px;
 }
 .icon-3-redux p {
   margin-bottom: 5px;
+  margin-top: -5px;
+  margin-left: 10px;
 }
 .icon-3-redux img {
-  height: 150px;
+  height: 140px;
 }
 /**/
 /**/
@@ -530,6 +535,7 @@
   padding-top: 10px;
   text-align: center;
   width: 1880px;
+  color: black;
 }
 .inside-1-works {
   display: block;

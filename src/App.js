@@ -120,7 +120,7 @@ function App() {
           <h4>Alternate of Context</h4>
           <div className="icon-3-redux">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
+              src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png"
               alt="*"
             />
             <p> Redux </p>
