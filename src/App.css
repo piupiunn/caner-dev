@@ -113,6 +113,11 @@
   border: 1px solid;
   background-color: #46ab88;
 }
+.inside-2-javascript h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
 .icon-2-javascript {
   border-top-left-radius: 10px;
   display: block;
@@ -123,6 +128,9 @@
   text-align: center;
   top: 30px;
   width: 171px;
+}
+.icon-2-javascript p {
+  margin-bottom: 5px;
 }
 .icon-2-javascript img {
   height: 150px;
@@ -152,6 +160,12 @@
   border: 1px solid;
   background-color: #444444;
 }
+.inside-2-react h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+
 .icon-2-react {
   border-top-left-radius: 10px;
   display: block;
@@ -163,6 +177,9 @@
 
   width: 100x;
   height: 150px;
+}
+.icon-2-react p {
+  margin-bottom: 5px;
 }
 .icon-2-react img {
   height: 150px;
@@ -192,6 +209,11 @@
   border: 1px solid;
   background-color: #caedef;
 }
+.inside-2-css h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
 .icon-2-css {
   border-top-left-radius: 10px;
   display: block;
@@ -202,6 +224,9 @@
   text-align: center;
   top: 30px;
   width: 171px;
+}
+.icon-2-css p {
+  margin-bottom: 5px;
 }
 .icon-2-css img {
   height: 150px;
@@ -230,6 +255,11 @@
   border: 1px solid;
   background-color: #ba545e;
 }
+.inside-2-html h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
 .icon-2-html {
   border-top-left-radius: 10px;
   display: block;
@@ -241,44 +271,268 @@
   top: 30px;
   width: 171px;
 }
+.icon-2-html p {
+  margin-bottom: 5px;
+}
 .icon-2-html img {
   height: 150px;
 }
+/**/
 
 /**/
-.flex-3 {
+.flex-3-git {
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
   width: 32.7%;
   border: 1px solid;
 }
-.inside-3 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+.inside-3-git {
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 200px;
   position: relative;
   text-align: center;
+  background-color: #f6f4ed;
+}
+.inside-3-git h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-git {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 171px;
+}
+.icon-3-git p {
+  margin-bottom: 5px;
+}
+.icon-3-git img {
+  height: 75px;
+}
+/**/
+/**/
+.flex-3-github {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 32.7%;
   border: 1px solid;
 }
-.icon-3 {
-  box-sizing: border-box;
-  height: 110px;
+.inside-3-github {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #b1ad83;
+}
+.inside-3-github h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-github {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
   left: 50%;
-  margin-bottom: 0;
-  margin-left: -29.5px;
-  margin-right: 0;
-  margin-top: 0px;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-3-github p {
+  margin-bottom: 5px;
+}
+.icon-3-github img {
+  height: 150px;
+}
+/**/
+/**/
+.flex-3-npm {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 32.7%;
+  border: 1px solid;
+}
+.inside-3-npm {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #aae3eb;
+}
+.inside-3-npm h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-npm {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-3-npm p {
+  margin-bottom: 5px;
+}
+.icon-3-npm img {
+  height: 150px;
+}
+/**/
+/**/
+.flex-3-formatters {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 32.7%;
+  border: 1px solid;
+}
+.inside-3-formatters {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #f4eb93;
+}
+.inside-3-formatters h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-formatters {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  margin-left: 0px;
   position: absolute;
   text-align: center;
   top: 50px;
-  width: 59px;
+  width: 171px;
+  margin-left: 40px;
+}
+.icon-3-formatters p {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.icon-3-formatters .img-1 {
+  position: absolute;
+  height: 150px;
+  margin-left: 27px;
+  margin-top: 10px;
+}
+.icon-3-formatters .img-2 {
+  position: absolute;
+  height: 150px;
+  margin-left: 90px;
+}
+.eslint {
+  margin-left: 300px;
+}
+/**/
+/**/
+.flex-3-redux {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 32.7%;
   border: 1px solid;
 }
+.inside-3-redux {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #475163;
+}
+.inside-3-redux h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-redux {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-3-redux p {
+  margin-bottom: 5px;
+}
+.icon-3-redux img {
+  height: 150px;
+}
+/**/
+/**/
+.flex-3-frameworks {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 32.7%;
+  border: 1px solid;
+}
+.inside-3-frameworks {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #46ab88;
+}
+.inside-3-frameworks h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-frameworks {
+  border-top-left-radius: 10px;
+  display: block;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 171px;
+}
+.icon-3-frameworks p {
+  margin-bottom: 5px;
+}
+.icon-3-frameworks img {
+  height: 150px;
+}
+/**/
