@@ -62,25 +62,30 @@ function App() {
       </div>
       <div className="flex-3-git">
         <div className="inside-3-git">
-          <h4>Version control system</h4>
+          <h4>Version control system and Repo hosting service</h4>
           <div className="icon-3-git">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"
               alt="*"
             />
-            <p>Basic usega of Git</p>
-          </div>
-        </div>
-      </div>
-      <div className="flex-3-github">
-        <div className="inside-3-github">
-          <h4>Repo hosting service</h4>
-          <div className="icon-3-github">
+            <p>Git</p>
             <img
               src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
               alt="*"
             />
             <p>Github</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-firebase">
+        <div className="inside-3-firebase">
+          <h4>Repo hosting service</h4>
+          <div className="icon-3-firebase">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
+              alt="*"
+            />
+            <p>Firebase</p>
           </div>
         </div>
       </div>
@@ -153,10 +158,84 @@ function App() {
           <div className="icon-1-works">
             <h4>My Projects</h4>
             <img
-              src="https://cdn-icons-png.flaticon.com/512/4826/4826140.png"
+              src="https://cdn-icons-png.flaticon.com/512/186/186303.png"
               alt="*"
             />
             <p>Yes</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-game">
+        <div className="inside-3-game">
+          <div className="icon-3-game">
+            <p>
+              My lovely first project. A little fully functional card match
+              game. Made with love.
+            </p>
+            <button>To Project</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-todo">
+        <div className="inside-3-todo">
+          <div className="icon-3-todo">
+            <p>
+              My second project. I tried to make a compact application with many
+              features together. These features Registration, member login,
+              adding photos, getting information from API, seeing users' online
+              status, adding and deleting tasks, assigning a task to a specific
+              user, only the task creator can delete the task, viewing by
+              category, not showing the site content to non-members, real-time
+              public chat. And finally registering all features on firebase
+            </p>
+            <button>To Project</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-covid-tracker">
+        <div className="inside-3-covid-tracker">
+          <div className="icon-3-covid-tracker">
+            <p>
+              <b>
+                My third project. I combined the country location and covid
+                information provided by "Disase" with the "Circle" feature
+                provided by "Leaflet", which is used to indicate location on the
+                map. I added the location information I got from "Disesa" to
+                "Leaflet" and specified the locations of the countries. Then I
+                multiplied the area of ​​these location rings with the covid
+                information of the countries I got from "Disesa". As a result, I
+                got rings that get bigger and smaller depending on the location
+                of the countries and the number and type of cases.
+              </b>
+            </p>
+            <button>To Project</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-netflix-clone">
+        <div className="inside-3-netflix-clone">
+          <div className="icon-3-netflix-clone">
+            <p>
+              Laudantium nostrum perferendis reprehenderit sapiente itaque?
+              Beatae quae eos reiciendis. Quam debitis magni asperiores aperiam
+            </p>
+            <button>To Project</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-spotify-clone">
+        <div className="inside-3-spotify-clone">
+          <div className="icon-3-spotify-clone">
+            <p>Work in progress...</p>
+            <button>To Project</button>
+          </div>
+        </div>
+      </div>
+      <div className="flex-3-clone">
+        <div className="inside-3-clone">
+          <div className="icon-3-clone">
+            <p>Work in progress..</p>
+            <button>To Project</button>
           </div>
         </div>
       </div>

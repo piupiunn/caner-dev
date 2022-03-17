@@ -10,6 +10,33 @@
   font-family: "Poiret One", cursive;
 }
 /**/
+button {
+  margin-right: 110px;
+  margin-top: 100px;
+
+  background-color: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 15px 18px 30px 15px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+  box-shadow: 0 0 4px #999;
+  background-position: center;
+  transition: background 0.8s;
+}
+button:hover {
+  background: #46ab88 radial-gradient(circle, transparent 1%, #46ab88 1%)
+    center/15000%;
+  color: white;
+}
+button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+/**/
+/**/
 .flex-1-me {
   display: flex;
   padding-left: 10px;
@@ -291,11 +318,12 @@
   display: block;
   height: 111px;
   left: 50%;
-  margin-left: -90px;
+  margin-left: -190px;
   position: absolute;
   text-align: center;
-  top: 60px;
+  top: 100px;
   width: 171px;
+  display: flex;
 }
 .icon-3-git p {
   margin-bottom: 5px;
@@ -305,14 +333,14 @@
 }
 /**/
 /**/
-.flex-3-github {
+.flex-3-firebase {
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
   width: 622px;
   color: black;
 }
-.inside-3-github {
+.inside-3-firebase {
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -322,27 +350,28 @@
 
   background-color: #b1ad83;
 }
-.inside-3-github h4 {
+.inside-3-firebase h4 {
   top: 5px;
   left: 5px;
   position: absolute;
 }
-.icon-3-github {
+.icon-3-firebase {
   border-top-left-radius: 10px;
   display: block;
   height: 111px;
   left: 50%;
-  margin-left: -110px;
+  margin-left: -220px;
   position: absolute;
   text-align: center;
   top: 50px;
   width: 171px;
 }
-.icon-3-github p {
+.icon-3-firebase p {
   margin-top: -45px;
   margin-left: 50px;
+  padding-left: 190px;
 }
-.icon-3-github img {
+.icon-3-firebase img {
   height: 150px;
 }
 /**/
@@ -574,4 +603,327 @@
   color: white;
 }
 
+/**/
+
+/**/
+/**/
+.flex-3-game {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+}
+.inside-3-game {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #ba545e;
+}
+.inside-3-game h4 {
+}
+.icon-3-game {
+  border-top-left-radius: 10px;
+
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-game button:hover {
+  background: #ba545e radial-gradient(circle, transparent 1%, #ba545e 1%)
+    center/15000%;
+  color: white;
+}
+.icon-3-game button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.icon-3-game p {
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: -200px;
+}
+.icon-3-game img {
+  margin-right: -80px;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  shape-outside: border-box;
+  transition: ease-in-out 1s;
+  float: right;
+}
+.icon-3-game img:hover {
+  width: 90%;
+  height: 90%;
+}
+
+/**/
+/**/
+/**/
+.flex-3-todo {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+}
+.inside-3-todo {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #444444;
+}
+.inside-3-todo h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-todo {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-todo button {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.icon-3-todo button:hover {
+  background: #444444 radial-gradient(circle, transparent 1%, #444444 1%)
+    center/15000%;
+  color: white;
+}
+.icon-3-todo button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+.icon-3-todo p {
+  margin-bottom: 5px;
+
+  margin-left: -200px;
+  margin-right: -75px;
+}
+.icon-3-todo img {
+  height: 90px;
+  padding-bottom: 5px;
+}
+/**/
+/**/
+/**/
+.flex-3-covid-tracker {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+  color: black;
+  font-weight: 900px;
+}
+.inside-3-covid-tracker {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #f4eb93;
+}
+.inside-3-covid-tracker h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-covid-tracker {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-covid-tracker button {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.icon-3-covid-tracker button:hover {
+  background: #f4eb93 radial-gradient(circle, transparent 1%, #f4eb93 1%)
+    center/15000%;
+  color: black;
+}
+.icon-3-covid-tracker button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+.icon-3-covid-tracker p {
+  margin-bottom: 5px;
+
+  margin-left: -200px;
+  margin-right: -75px;
+}
+.icon-3-covid-tracker img {
+  height: 90px;
+  padding-bottom: 5px;
+}
+/**/
+/**/
+/**/
+.flex-3-netflix-clone {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+}
+.inside-3-netflix-clone {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #b1ad83;
+}
+.inside-3-netflix-clone h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-netflix-clone {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-netflix-clone p {
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: -100px;
+}
+.icon-3-netflix-clone img {
+  height: 90px;
+  padding-bottom: 5px;
+}
+/**/
+/**/
+/**/
+/**/
+.flex-3-spotify-clone {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+}
+.inside-3-spotify-clone {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #46ab88;
+}
+.inside-3-spotify-clone h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-spotify-clone {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-spotify-clone p {
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: -100px;
+}
+.icon-3-spotify-clone img {
+  height: 90px;
+  padding-bottom: 5px;
+}
+/**/
+/**/
+/**/
+.flex-3-clone {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 622px;
+}
+.inside-3-clone {
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #475163;
+}
+.inside-3-clone h4 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.icon-3-clone {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 111px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 300px;
+}
+.icon-3-clone p {
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: -100px;
+}
+.icon-3-clone img {
+  height: 90px;
+  padding-bottom: 5px;
+}
 /**/
