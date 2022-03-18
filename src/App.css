@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  height: 2250px;
+}
 .app {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +123,7 @@ button:active {
   padding-right: 10px;
 
   text-align: center;
-  width: 929px;
+  width: 935px;
 }
 .inside-2-javascript {
   display: block;
@@ -161,8 +164,8 @@ button:active {
 
 .flex-2-react {
   text-align: center;
-  padding-left: 10px;
-  width: 929px;
+
+  width: 935px;
 }
 .inside-2-react {
   display: block;
@@ -209,7 +212,7 @@ button:active {
   padding-top: 10px;
 
   text-align: center;
-  width: 929px;
+  width: 935px;
 }
 .inside-2-css {
   display: block;
@@ -249,12 +252,11 @@ button:active {
 /**/
 
 .flex-2-html {
-  padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
 
   text-align: center;
-  width: 929px;
+  width: 935px;
 }
 .inside-2-html {
   display: block;
@@ -560,8 +562,7 @@ button:active {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+
   text-align: center;
   width: 1880px;
   color: black;
@@ -569,8 +570,7 @@ button:active {
 .inside-1-works {
   display: block;
   background-color: #aae3eb;
-  flex-grow: 1;
-  flex-shrink: 1;
+
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -585,8 +585,8 @@ button:active {
   height: 95px;
   left: 50%;
   margin-left: -75px;
-  margin-right: 0;
-  margin-top: 0px;
+
+  margin-top: -10px;
   position: absolute;
   text-align: center;
   top: 65px;
@@ -623,8 +623,7 @@ button:active {
   margin-right: 5px;
   background-color: #ba545e;
 }
-.inside-3-game h4 {
-}
+
 .icon-3-game {
   border-top-left-radius: 10px;
 
@@ -635,6 +634,10 @@ button:active {
   text-align: center;
   top: 20px;
   width: 300px;
+}
+.icon-3-game button {
+  margin-top: 75px;
+  margin-left: 10px;
 }
 .icon-3-game button:hover {
   background: #ba545e radial-gradient(circle, transparent 1%, #ba545e 1%)
@@ -649,8 +652,9 @@ button:active {
 
 .icon-3-game p {
   margin-bottom: 5px;
-  margin-right: 0px;
+  margin-top: 100px;
   margin-left: -200px;
+  margin-right: -75px;
 }
 .icon-3-game img {
   margin-right: -80px;
@@ -685,11 +689,7 @@ button:active {
   margin-right: 5px;
   background-color: #444444;
 }
-.inside-3-todo h4 {
-  top: 5px;
-  left: 5px;
-  position: absolute;
-}
+
 .icon-3-todo {
   border-top-left-radius: 10px;
   display: flex;
@@ -703,7 +703,7 @@ button:active {
   width: 300px;
 }
 .icon-3-todo button {
-  margin-top: 20px;
+  margin-top: 33px;
   margin-left: 40px;
 }
 
@@ -719,7 +719,7 @@ button:active {
 }
 .icon-3-todo p {
   margin-bottom: 5px;
-
+  padding-top: 50px;
   margin-left: -200px;
   margin-right: -75px;
 }
@@ -766,7 +766,7 @@ button:active {
   width: 300px;
 }
 .icon-3-covid-tracker button {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 40px;
 }
 
@@ -826,18 +826,33 @@ button:active {
   top: 20px;
   width: 300px;
 }
+.icon-3-netflix-clone button {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.icon-3-netflix-clone button:hover {
+  background: #b1ad83 radial-gradient(circle, transparent 1%, #b1ad83 1%)
+    center/15000%;
+  color: black;
+}
+.icon-3-netflix-clone button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
 .icon-3-netflix-clone p {
   margin-bottom: 5px;
-  margin-right: 0px;
-  margin-left: -100px;
+
+  margin-left: -200px;
+  margin-right: -75px;
 }
 .icon-3-netflix-clone img {
   height: 90px;
   padding-bottom: 5px;
 }
 /**/
-/**/
-/**/
+
 /**/
 .flex-3-spotify-clone {
   padding-left: 10px;
@@ -927,3 +942,24 @@ button:active {
   padding-bottom: 5px;
 }
 /**/
+/**/
+.navbar {
+  display: flex;
+  height: 20px;
+  width: 1000px;
+  color: black;
+  font-weight: 900px;
+}
+
+.left-navbar {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.left-navbar p {
+  margin-left: 20px;
+}
+.left-navbar a {
+  text-decoration: none;
+  color: black;
+}

@@ -3,6 +3,25 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
+      <div className="navbar">
+        <div className="left-navbar">
+          <p>
+            <b>My Email: canerdemir@dev.com</b>
+          </p>
+          <p>
+            <b>My Phone: +090 544-446-0073</b>
+          </p>
+          <p>
+            <a
+              href="https://github.com/piupiunn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>My Github</b>
+            </a>
+          </p>
+        </div>
+      </div>
       <div className="flex-1-me">
         <div className="inside-1-me">
           BEN
@@ -161,7 +180,6 @@ function App() {
               src="https://cdn-icons-png.flaticon.com/512/186/186303.png"
               alt="*"
             />
-            <p>Yes</p>
           </div>
         </div>
       </div>
@@ -170,9 +188,15 @@ function App() {
           <div className="icon-3-game">
             <p>
               My lovely first project. A little fully functional card match
-              game. Made with love.
+              game. (Made with love.)
             </p>
-            <button>To Project</button>
+            <a
+              href="https://canerdemir-game.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>To Project</button>
+            </a>
           </div>
         </div>
       </div>
@@ -180,15 +204,22 @@ function App() {
         <div className="inside-3-todo">
           <div className="icon-3-todo">
             <p>
-              My second project. I tried to make a compact application with many
-              features together. These features Registration, member login,
-              adding photos, getting information from API, seeing users' online
-              status, adding and deleting tasks, assigning a task to a specific
-              user, only the task creator can delete the task, viewing by
-              category, not showing the site content to non-members, real-time
-              public chat. And finally registering all features on firebase
+              My second project is Family Todo App. I tried to make a compact
+              application with many features together. These features
+              Registration, member login, adding photos, getting information
+              from API, seeing users' online status, adding and deleting tasks,
+              assigning a task to a specific user, only the task creator can
+              delete the task, viewing by category, not showing the site content
+              to non-members, real-time public chat. And finally registering all
+              features on firebase. (And it's made with love too.)
             </p>
-            <button>To Project</button>
+            <a
+              href="https://caner-family-home-todo.firebaseapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>To Project</button>
+            </a>
           </div>
         </div>
       </div>
@@ -197,18 +228,28 @@ function App() {
           <div className="icon-3-covid-tracker">
             <p>
               <b>
-                My third project. I combined the country location and covid
-                information provided by "Disase" with the "Circle" feature
-                provided by "Leaflet", which is used to indicate location on the
-                map. I added the location information I got from "Disesa" to
-                "Leaflet" and specified the locations of the countries. Then I
-                multiplied the area of ​​these location rings with the covid
-                information of the countries I got from "Disesa". As a result, I
-                got rings that get bigger and smaller depending on the location
-                of the countries and the number and type of cases.
+                My third project is Covid Tracker. I combined the country
+                location and covid information provided by "Disase" with the
+                "Circle" feature provided by "Leaflet", which is used to
+                indicate location on the map. I added the location information I
+                got from "Disesa" to "Leaflet" and specified the locations of
+                the countries. Then I multiplied the area of ​​these location
+                rings with the covid information of the countries I got from
+                "Disesa". As a result, I got rings that get bigger and smaller
+                depending on the location of the countries and the number and
+                type of cases. As a graph, I combined the "Graphjs" library with
+                the data from "Disease" to create a daily chart. I used
+                "Material UI" for the overall application. (Did I mention that
+                this too is made with Love?)
               </b>
             </p>
-            <button>To Project</button>
+            <a
+              href="https://canerdemir-covid-tracker.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>To Project</button>
+            </a>
           </div>
         </div>
       </div>
@@ -216,10 +257,29 @@ function App() {
         <div className="inside-3-netflix-clone">
           <div className="icon-3-netflix-clone">
             <p>
-              Laudantium nostrum perferendis reprehenderit sapiente itaque?
-              Beatae quae eos reiciendis. Quam debitis magni asperiores aperiam
+              <b>
+                I cloned Netflix's homepage as my fourth project. I got the
+                posters, categories, release dates and names from the
+                "themoviedb" api. The API was giving the release date as
+                "yyyy-mm-dd". To show which movie was released last, I took this
+                data, removed the line between them and turned it into a number.
+                and for example I got the number 20220202 from "2022-02-02".
+                Then, if the number obtained is greater than the number I
+                entered today, I showed the text "New". In the video
+                introduction part, I used "Movie Trailer" using Youtube API in
+                the background. In this way, I was able to search for a trailer
+                on youtube with the movie name information I got from
+                "Themoviedb" and show it as a video above. (I fell in love with
+                it so much that my girlfriend got jealous and left me.)
+              </b>
             </p>
-            <button>To Project</button>
+            <a
+              href="https://canerdemir-netflix-clone.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>To Project</button>
+            </a>
           </div>
         </div>
       </div>
