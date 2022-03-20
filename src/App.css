@@ -766,7 +766,7 @@ button:active {
   width: 300px;
 }
 .icon-3-covid-tracker button {
-  margin-top: 10px;
+  margin-top: 27px;
   margin-left: 40px;
 }
 
@@ -827,7 +827,7 @@ button:active {
   width: 300px;
 }
 .icon-3-netflix-clone button {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 
@@ -887,10 +887,26 @@ button:active {
   top: 20px;
   width: 300px;
 }
+.icon-3-spotify-clone button {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.icon-3-spotify-clone button:hover {
+  background: #46ab88 radial-gradient(circle, transparent 1%, #46ab88 1%)
+    center/15000%;
+  color: black;
+}
+.icon-3-spotify-clone button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
 .icon-3-spotify-clone p {
   margin-bottom: 5px;
-  margin-right: 0px;
-  margin-left: -100px;
+
+  margin-left: -200px;
+  margin-right: -75px;
 }
 .icon-3-spotify-clone img {
   height: 90px;
@@ -932,10 +948,26 @@ button:active {
   top: 20px;
   width: 300px;
 }
+.icon-3-clone button {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.icon-3-clone button:hover {
+  background: #475163 radial-gradient(circle, transparent 1%, #475163 1%)
+    center/15000%;
+  color: black;
+}
+.icon-3-clone button:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
 .icon-3-clone p {
   margin-bottom: 5px;
-  margin-right: 0px;
-  margin-left: -100px;
+
+  margin-left: -200px;
+  margin-right: -75px;
 }
 .icon-3-clone img {
   height: 90px;

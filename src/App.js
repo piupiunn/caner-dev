@@ -188,7 +188,7 @@ function App() {
           <div className="icon-3-game">
             <p>
               My lovely first project. A little fully functional card match
-              game. (Made with love.)
+              game.
             </p>
             <a
               href="https://canerdemir-game.netlify.app/"
@@ -211,7 +211,7 @@ function App() {
               assigning a task to a specific user, only the task creator can
               delete the task, viewing by category, not showing the site content
               to non-members, real-time public chat. And finally registering all
-              features on firebase. (And it's made with love too.)
+              features on firebase.
             </p>
             <a
               href="https://caner-family-home-todo.firebaseapp.com/"
@@ -239,8 +239,7 @@ function App() {
                 depending on the location of the countries and the number and
                 type of cases. As a graph, I combined the "Graphjs" library with
                 the data from "Disease" to create a daily chart. I used
-                "Material UI" for the overall application. (Did I mention that
-                this too is made with Love?)
+                "Material UI" for the overall application.
               </b>
             </p>
             <a
@@ -269,8 +268,7 @@ function App() {
                 introduction part, I used "Movie Trailer" using Youtube API in
                 the background. In this way, I was able to search for a trailer
                 on youtube with the movie name information I got from
-                "Themoviedb" and show it as a video above. (I fell in love with
-                it so much that my girlfriend got jealous and left me.)
+                "Themoviedb" and show it as a video above.
               </b>
             </p>
             <a
