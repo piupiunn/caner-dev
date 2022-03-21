@@ -183,9 +183,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex-3-game">
-        <div className="inside-3-game">
-          <div className="icon-3-game">
+      <div className="flex-1-game">
+        <div className="inside-1-game">
+          <div className="icon-1-game">
             <p>
               My lovely first project. A little fully functional card match
               game.
@@ -200,9 +200,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex-3-todo">
-        <div className="inside-3-todo">
-          <div className="icon-3-todo">
+      <div className="flex-1-todo">
+        <div className="inside-1-todo">
+          <div className="icon-1-todo">
             <p>
               My second project is Family Todo App. I tried to make a compact
               application with many features together. These features
@@ -223,9 +223,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex-3-covid-tracker">
-        <div className="inside-3-covid-tracker">
-          <div className="icon-3-covid-tracker">
+      <div className="flex-1-covid-tracker">
+        <div className="inside-1-covid-tracker">
+          <div className="icon-1-covid-tracker">
             <p>
               <b>
                 My third project is Covid Tracker. I combined the country
@@ -252,9 +252,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex-3-netflix-clone">
-        <div className="inside-3-netflix-clone">
-          <div className="icon-3-netflix-clone">
+      <div className="flex-1-netflix-clone">
+        <div className="inside-1-netflix-clone">
+          <div className="icon-1-netflix-clone">
             <p>
               <b>
                 I cloned Netflix's homepage as my fourth project. I got the
@@ -278,22 +278,6 @@ function App() {
             >
               <button>To Project</button>
             </a>
-          </div>
-        </div>
-      </div>
-      <div className="flex-3-spotify-clone">
-        <div className="inside-3-spotify-clone">
-          <div className="icon-3-spotify-clone">
-            <p>Work in progress...</p>
-            <button>To Project</button>
-          </div>
-        </div>
-      </div>
-      <div className="flex-3-clone">
-        <div className="inside-3-clone">
-          <div className="icon-3-clone">
-            <p>Work in progress..</p>
-            <button>To Project</button>
           </div>
         </div>
       </div>
