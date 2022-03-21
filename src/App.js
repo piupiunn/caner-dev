@@ -30,6 +30,7 @@ function App() {
             <p>Caner Demir</p>
           </div>
         </div>
+        <img src="" alt="" />
       </div>
       <div className="flex-2-javascript">
         <div className="inside-2-javascript">
@@ -78,7 +79,12 @@ function App() {
         </div>
         <img
           className="css-secret-2"
-          src="https://c.tenor.com/RvMZMiTblfQAAAAM/oh-hey-oh-hey-there.gif"
+          src="https://64.media.tumblr.com/fac94fae24bbaa35adec3b15338b450b/tumblr_ofd9w4DPRB1riokveo6_1280.gifv"
+          alt=""
+        />
+        <img
+          className=" css-secret-2-2"
+          src="https://33.media.tumblr.com/985417885f2d0b1c19a84d7f5197ddb4/tumblr_mos8yubW5G1rqx7xyo1_500.gif"
           alt=""
         />
       </div>
@@ -93,6 +99,16 @@ function App() {
             <p>HTML</p>
           </div>
         </div>
+        <img
+          className="html-secret-2"
+          src="https://i.pinimg.com/originals/37/bb/12/37bb12dc18a82af3c2278844fcbfb967.gif"
+          alt=""
+        />
+        <img
+          className="html-secret-2-2"
+          src="https://c.tenor.com/L9I0IxUUfccAAAAC/eren-titan-armored-titan.gif"
+          alt=""
+        />
       </div>
       <div className="flex-3-git">
         <div className="inside-3-git">
