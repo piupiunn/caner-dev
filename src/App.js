@@ -61,6 +61,11 @@ function App() {
           </div>
         </div>
         <img
+          className="react-secret-2-2"
+          src="https://c.tenor.com/V3ywNA48jrsAAAAC/rick-and-morthy-dance.gif"
+          alt=""
+        />
+        <img
           className="react-secret-2"
           src="https://media0.giphy.com/media/1qktVRi0xWSxQZnzPI/giphy.gif"
           alt=""
@@ -126,6 +131,11 @@ function App() {
             <p>Github</p>
           </div>
         </div>
+        <img
+          className="git-secret-3"
+          src="https://sweezy-cursors.com/wp-content/uploads/cursor/v-male-skippy-pistol/cyberpunk-2077-v-male-skippy-pistol-custom-cursor.png"
+          alt=""
+        />
       </div>
       <div className="flex-3-firebase">
         <div className="inside-3-firebase">
@@ -138,6 +148,11 @@ function App() {
             <p>Firebase</p>
           </div>
         </div>
+        <img
+          className="firebase-secret-3"
+          src="https://www.pngall.com/wp-content/uploads/4/Geralt-of-Rivia-Transparent.png"
+          alt=""
+        />
       </div>
       <div className="flex-3-npm">
         <div className="inside-3-npm">

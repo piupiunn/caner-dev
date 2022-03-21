@@ -137,7 +137,7 @@ button:active {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   background-position: center;
   transition: background 0.8s;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 .inside-2-javascript:hover {
   transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-80px);
@@ -147,7 +147,8 @@ button:active {
   color: #fff;
 }
 .javascript-secret-2 {
-  width: 100px;
+  width: 110px;
+
   margin-top: -100px;
   margin-bottom: 10px;
 }
@@ -193,12 +194,12 @@ button:active {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   background-position: center;
   transition: background 0.8s;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
   background-color: #444444;
   border-radius: 10px;
 }
 .inside-2-react:hover {
-  transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-80px);
+  transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-170px);
   transition: all 0.7s ease;
   background-color: #444444;
   box-shadow: 5px 10px 15px -5px #444444;
@@ -206,8 +207,14 @@ button:active {
 }
 .react-secret-2 {
   width: 90px;
+  height: 100px;
   margin-top: -100px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+.react-secret-2-2 {
+  width: 90px;
+  margin-top: -190px;
+  margin-bottom: 15px;
 }
 .inside-2-react h4 {
   top: 5px;
@@ -258,7 +265,7 @@ button:active {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   background-position: center;
   transition: background 0.8s;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
   background-color: #caedef;
 }
 .inside-2-css:hover {
@@ -320,6 +327,7 @@ button:active {
 }
 .inside-2-html {
   display: block;
+  border-radius: 10px;
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -329,14 +337,14 @@ button:active {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   background-position: center;
   transition: background 0.8s;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
   background-color: #ba545e;
 }
 .inside-2-html:hover {
   transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-150px);
   transition: all 0.7s ease;
-  background-color: #caedef;
-  box-shadow: 5px 10px 15px -5px #caedef;
+  background-color: #ba545e;
+  box-shadow: 5px 10px 15px -5px #ba545e;
   color: #fff;
 }
 .html-secret-2 {
@@ -396,6 +404,24 @@ button:active {
   position: relative;
   text-align: center;
   background-color: #f6f4ed;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  transition: background 2s;
+  transition: all 2s ease;
+}
+.inside-3-git:hover {
+  transition: all 2s ease;
+  background-color: #f6f4ed;
+  box-shadow: 5px 10px 15px -5px #f6f4ed;
+  opacity: 0;
+}
+.git-secret-3 {
+  width: 300px;
+  margin-right: -50px;
+  margin-top: -200px;
+  margin-bottom: 15px;
+  color: black;
+  background-color: white;
 }
 .inside-3-git h4 {
   top: 5px;
@@ -436,8 +462,26 @@ button:active {
   padding-top: 200px;
   position: relative;
   text-align: center;
-
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  transition: background 2s;
+  transition: all 2s ease-in-out;
   background-color: #b1ad83;
+}
+.inside-3-firebase:hover {
+  transition: all 2s ease;
+  background-color: #b1ad83;
+  box-shadow: 5px 10px 15px -5px #b1ad83;
+  color: #fff;
+  opacity: 0;
+}
+.firebase-secret-3 {
+  width: 200px;
+  margin-right: -50px;
+  margin-top: -200px;
+  margin-bottom: 15px;
+  color: black;
+  background-color: white;
 }
 .inside-3-firebase h4 {
   top: 5px;
