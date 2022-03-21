@@ -132,8 +132,24 @@ button:active {
   padding-top: 200px;
   position: relative;
   text-align: center;
-
+  border-radius: 10px;
   background-color: #46ab88;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  transition: background 0.8s;
+  transition: all 0.2s ease-in-out;
+}
+.inside-2-javascript:hover {
+  transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-80px);
+  transition: all 0.7s ease;
+  background-color: #46ab88;
+  box-shadow: 5px 10px 15px -5px #46ab88;
+  color: #fff;
+}
+.javascript-secret-2 {
+  width: 100px;
+  margin-top: -100px;
+  margin-bottom: 10px;
 }
 .inside-2-javascript h4 {
   top: 5px;
@@ -174,8 +190,24 @@ button:active {
   padding-top: 200px;
   position: relative;
   text-align: center;
-
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  transition: background 0.8s;
+  transition: all 0.2s ease-in-out;
   background-color: #444444;
+  border-radius: 10px;
+}
+.inside-2-react:hover {
+  transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-80px);
+  transition: all 0.7s ease;
+  background-color: #444444;
+  box-shadow: 5px 10px 15px -5px #444444;
+  color: #fff;
+}
+.react-secret-2 {
+  width: 90px;
+  margin-top: -100px;
+  margin-bottom: 10px;
 }
 .inside-2-react h4 {
   top: 5px;
@@ -215,6 +247,7 @@ button:active {
 }
 .inside-2-css {
   display: block;
+  border-radius: 10px;
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -222,7 +255,26 @@ button:active {
   position: relative;
   text-align: center;
   color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  transition: background 0.8s;
+  transition: all 0.2s ease-in-out;
   background-color: #caedef;
+}
+.inside-2-css:hover {
+  transform: scale(0.95) perspective(180px) rotateX(2deg) translateY(-80px);
+  transition: all 0.7s ease;
+  background-color: #caedef;
+  box-shadow: 5px 10px 15px -5px #caedef;
+  color: #fff;
+}
+.css-secret-2 {
+  width: 85px;
+  margin-left: -750px;
+  margin-top: -100px;
+  margin-bottom: 15px;
+  color: black;
+  background-color: white;
 }
 .inside-2-css h4 {
   top: 5px;

@@ -42,6 +42,11 @@ function App() {
             <p>Javascript</p>
           </div>
         </div>
+        <img
+          className="javascript-secret-2"
+          src="https://i.pinimg.com/originals/4c/4b/c9/4c4bc9af912f572f83105594ff7a3498.gif"
+          alt=""
+        />
       </div>
       <div className="flex-2-react">
         <div className="inside-2-react">
@@ -54,6 +59,11 @@ function App() {
             <p>Reactjs</p>
           </div>
         </div>
+        <img
+          className="react-secret-2"
+          src="https://media0.giphy.com/media/1qktVRi0xWSxQZnzPI/giphy.gif"
+          alt=""
+        />
       </div>
       <div className="flex-2-css">
         <div className="inside-2-css">
@@ -66,6 +76,11 @@ function App() {
             <p>CSS</p>
           </div>
         </div>
+        <img
+          className="css-secret-2"
+          src="https://c.tenor.com/RvMZMiTblfQAAAAM/oh-hey-oh-hey-there.gif"
+          alt=""
+        />
       </div>
       <div className="flex-2-html">
         <div className="inside-2-html">
