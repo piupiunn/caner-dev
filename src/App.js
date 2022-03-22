@@ -37,7 +37,7 @@ function App() {
             <b> And these are my skills. </b>
           </p>
           <p className="me-3">
-            <b>The 'others' are the things I like</b>
+            <b>'Other' things I enjoy in my free time.</b>
           </p>
           <p className="me-4">
             <b>
@@ -155,7 +155,7 @@ function App() {
       </div>
       <div className="flex-3-firebase">
         <div className="inside-3-firebase">
-          <h4>Repo hosting service</h4>
+          <h4>Backend as a Service </h4>
           <div className="icon-3-firebase">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
