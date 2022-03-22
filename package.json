@@ -1,6 +1,5 @@
 {
-  "name": "caner-personal-website",
-  "homepage": "https://piupiunn.github.io/caner-personal-website",
+  "name": "caner-dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
