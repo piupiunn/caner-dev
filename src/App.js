@@ -6,7 +6,13 @@ function App() {
       <div className="navbar">
         <div className="left-navbar">
           <p>
-            <b>My Email: canerdemir@dev.com</b>
+            <a
+              href="https://www.linkedin.com/in/caner-demir-173466235/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>My Linkedin</b>
+            </a>
           </p>
           <p>
             <b>My Phone: +090 544-446-0073</b>
@@ -24,11 +30,21 @@ function App() {
       </div>
       <div className="flex-1-me">
         <div className="inside-1-me">
-          BEN
-          <div className="icon-1-me">
-            <img src="*" alt="*" />
-            <p>Caner Demir</p>
-          </div>
+          <p className="me-1">
+            <b>Hellooo. I'm Caner.</b>
+          </p>
+          <p className="me-2">
+            <b> And these are my skills. </b>
+          </p>
+          <p className="me-3">
+            <b>The 'others' are the things I like</b>
+          </p>
+          <p className="me-4">
+            <b>
+              The beauties at the bottom are also my projects.
+              <p></p>
+            </b>
+          </p>
         </div>
         <img src="" alt="" />
       </div>
@@ -165,6 +181,11 @@ function App() {
             <p>npm</p>
           </div>
         </div>
+        <img
+          className="npm-secret-3"
+          src="https://venov.com.tr/templates/nova/img/gtav.png"
+          alt=""
+        />
       </div>
       <div className="flex-3-formatters">
         <div className="inside-3-formatters">
@@ -184,6 +205,11 @@ function App() {
             <p className="eslint">ESLint</p>
           </div>
         </div>
+        <img
+          className="formatters-secret-3"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Godfather.svg/1200px-The_Godfather.svg.png"
+          alt=""
+        />
       </div>
       <div className="flex-3-redux">
         <div className="inside-3-redux">
@@ -196,6 +222,11 @@ function App() {
             <p> Redux </p>
           </div>
         </div>
+        <img
+          className="redux-secret-3"
+          src="https://i.pinimg.com/736x/5d/83/35/5d833565acae55783bcfebf76289edd2.jpg"
+          alt=""
+        />
       </div>
       <div className="flex-3-frameworks">
         <div className="inside-3-frameworks">
@@ -217,6 +248,11 @@ function App() {
             </p>
           </div>
         </div>
+        <img
+          className="frameworks-secret-3"
+          src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ghost_in_the_Shell_1995_logo.png"
+          alt=""
+        />
       </div>
       <div className="flex-1-works">
         <div className="inside-1-works">
