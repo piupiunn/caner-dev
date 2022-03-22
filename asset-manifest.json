@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.be268d47.css",
-    "main.js": "/static/js/main.b9045953.js",
-    "index.html": "/index.html",
-    "main.be268d47.css.map": "/static/css/main.be268d47.css.map",
-    "main.b9045953.js.map": "/static/js/main.b9045953.js.map"
+    "main.css": "/caner-personal-website/static/css/main.be268d47.css",
+    "main.js": "/caner-personal-website/static/js/main.b9045953.js",
+    "index.html": "/caner-personal-website/index.html",
+    "main.be268d47.css.map": "/caner-personal-website/static/css/main.be268d47.css.map",
+    "main.b9045953.js.map": "/caner-personal-website/static/js/main.b9045953.js.map"
   },
   "entrypoints": [
     "static/css/main.be268d47.css",
