@@ -287,8 +287,8 @@ function App() {
           <div className="icon-1-todo">
             <p>
               My second project is Family Todo App. I tried to make a compact
-              application with many features together. These features
-              Registration, member login, adding photos, getting information
+              application with many features together. These features;
+              registration, member login, adding photos, getting information
               from API, seeing users' online status, adding and deleting tasks,
               assigning a task to a specific user, only the task creator can
               delete the task, viewing by category, not showing the site content
