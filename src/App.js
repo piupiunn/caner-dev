@@ -60,8 +60,8 @@ function App() {
           </div>
         </div>
         <img
-          className="javascript-secret-2"
-          src="https://i.pinimg.com/originals/4c/4b/c9/4c4bc9af912f572f83105594ff7a3498.gif"
+          className="react-secret-2"
+          src="https://media0.giphy.com/media/1qktVRi0xWSxQZnzPI/giphy.gif"
           alt=""
         />
       </div>
@@ -78,12 +78,7 @@ function App() {
         </div>
         <img
           className="react-secret-2-2"
-          src="https://c.tenor.com/V3ywNA48jrsAAAAC/rick-and-morthy-dance.gif"
-          alt=""
-        />
-        <img
-          className="react-secret-2"
-          src="https://media0.giphy.com/media/1qktVRi0xWSxQZnzPI/giphy.gif"
+          src="https://i.gifer.com/origin/bd/bd230cde4a6f31d2a9556b3ce3451b2c.gif"
           alt=""
         />
       </div>
@@ -99,13 +94,8 @@ function App() {
           </div>
         </div>
         <img
-          className="css-secret-2"
-          src="https://64.media.tumblr.com/fac94fae24bbaa35adec3b15338b450b/tumblr_ofd9w4DPRB1riokveo6_1280.gifv"
-          alt=""
-        />
-        <img
-          className=" css-secret-2-2"
-          src="https://33.media.tumblr.com/985417885f2d0b1c19a84d7f5197ddb4/tumblr_mos8yubW5G1rqx7xyo1_500.gif"
+          className="html-secret-2-2"
+          src="http://static.tumblr.com/01c5bcce60fb3a3a088769f99b683aa9/12asykw/Rs8myl66i/tumblr_static_titan_eren_dancing.gif"
           alt=""
         />
       </div>
@@ -120,14 +110,10 @@ function App() {
             <p>HTML</p>
           </div>
         </div>
+
         <img
-          className="html-secret-2"
-          src="https://i.pinimg.com/originals/37/bb/12/37bb12dc18a82af3c2278844fcbfb967.gif"
-          alt=""
-        />
-        <img
-          className="html-secret-2-2"
-          src="https://c.tenor.com/L9I0IxUUfccAAAAC/eren-titan-armored-titan.gif"
+          className="css-secret-2"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Westworld_Logo.svg/1024px-Westworld_Logo.svg.png"
           alt=""
         />
       </div>
@@ -224,7 +210,7 @@ function App() {
         </div>
         <img
           className="redux-secret-3"
-          src="https://i.pinimg.com/736x/5d/83/35/5d833565acae55783bcfebf76289edd2.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dune_2021_transparent_logo.png"
           alt=""
         />
       </div>
