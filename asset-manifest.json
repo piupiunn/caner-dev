@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/caner-dev-site/static/css/main.be268d47.css",
-    "main.js": "/caner-dev-site/static/js/main.b9045953.js",
+    "main.css": "/caner-dev-site/static/css/main.442c5bf6.css",
+    "main.js": "/caner-dev-site/static/js/main.a2471cf3.js",
     "index.html": "/caner-dev-site/index.html",
-    "main.be268d47.css.map": "/caner-dev-site/static/css/main.be268d47.css.map",
-    "main.b9045953.js.map": "/caner-dev-site/static/js/main.b9045953.js.map"
+    "main.442c5bf6.css.map": "/caner-dev-site/static/css/main.442c5bf6.css.map",
+    "main.a2471cf3.js.map": "/caner-dev-site/static/js/main.a2471cf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.be268d47.css",
-    "static/js/main.b9045953.js"
+    "static/css/main.442c5bf6.css",
+    "static/js/main.a2471cf3.js"
   ]
 }
