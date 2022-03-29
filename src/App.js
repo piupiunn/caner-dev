@@ -349,6 +349,25 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="flex-1-book">
+        <div className="inside-1-book">
+          <div className="icon-1-book">
+            <p>
+              <b>
+                A site for book recommendations in various fields and above a
+                certain quality.
+              </b>
+            </p>
+            <a
+              href="https://piupiunn.github.io/canerdemir-kitap-tavsiyeleri/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>To Project</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
