@@ -473,6 +473,7 @@ button:active {
 }
 .icon-3-git img {
   height: 75px;
+  margin-right: 30px;
 }
 /**/
 /**/
@@ -540,13 +541,13 @@ button:active {
 }
 /**/
 /**/
-.flex-3-npm {
+.flex-3-api {
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
   width: 622px;
 }
-.inside-3-npm {
+.inside-3-api {
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -563,19 +564,19 @@ button:active {
   box-shadow: rgba(45, 35, 66, 0.4) 10px 5px 8px,
     rgba(45, 35, 66, 0.3) 10px 14px 26px -6px, #d6d6e7 1px -3px 4px inset;
 }
-.inside-3-npm:hover {
+.inside-3-api:hover {
   transition: all 2s ease;
   background-color: #b1ad83;
   box-shadow: 5px 10px 15px -5px #b1ad83;
   color: #fff;
   opacity: 0;
 }
-.inside-3-npm h4 {
+.inside-3-api h4 {
   top: 10px;
   left: 15px;
   position: absolute;
 }
-.icon-3-npm {
+.icon-3-api {
   border-top-left-radius: 10px;
   display: block;
   height: 111px;
@@ -586,7 +587,7 @@ button:active {
   top: 50px;
   width: 171px;
 }
-.npm-secret-3 {
+.api-secret-3 {
   width: 200px;
   margin-right: -50px;
   margin-top: -200px;
@@ -595,23 +596,25 @@ button:active {
   background-color: white;
 }
 
-.icon-3-npm p {
-  margin-top: -26px;
-  margin-left: 5px;
+.icon-3-api p {
+  margin-top: -30px;
+  margin-left: 200px;
+  width: 50px;
 }
-.icon-3-npm img {
+.icon-3-api img {
   height: 150px;
+  margin-left: -60px;
 }
 /**/
 /**/
-.flex-3-formatters {
+.flex-3-redux {
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
   width: 622px;
   color: black;
 }
-.inside-3-formatters {
+.inside-3-redux {
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -627,14 +630,14 @@ button:active {
     rgba(45, 35, 66, 0.3) 10px 14px 26px -6px, #d6d6e7 1px -3px 4px inset;
   background-color: #f4eb93;
 }
-.inside-3-formatters:hover {
+.inside-3-redux:hover {
   transition: all 2s ease;
   background-color: #b1ad83;
   box-shadow: 5px 10px 15px -5px #b1ad83;
   color: #fff;
   opacity: 0;
 }
-.formatters-secret-3 {
+.redux-secret-3 {
   width: 200px;
   margin-right: -50px;
   margin-top: -200px;
@@ -642,12 +645,12 @@ button:active {
   color: black;
   background-color: white;
 }
-.inside-3-formatters h4 {
+.inside-3-redux h4 {
   top: 10px;
   left: 15px;
   position: absolute;
 }
-.icon-3-formatters {
+.icon-3-redux {
   border-top-left-radius: 10px;
   display: block;
   height: 111px;
@@ -658,33 +661,36 @@ button:active {
   width: 171px;
   margin-left: 40px;
 }
-.icon-3-formatters p {
-  margin-top: -5px;
+.next-text {
+  margin-top: 25px;
+  margin-left: -20px;
   margin-bottom: 10px;
 }
-.icon-3-formatters .img-1 {
+.icon-3-redux .img-1 {
   position: absolute;
-  height: 150px;
-  margin-left: 27px;
-  margin-top: 10px;
+  height: 110px;
+  margin-left: -50px;
+  margin-top: 20px;
 }
-.icon-3-formatters .img-2 {
+.icon-3-redux .img-2 {
   position: absolute;
-  height: 150px;
-  margin-left: 90px;
+  height: 160px;
+  margin-left: 140px;
+  margin-top: -20px;
 }
-.eslint {
-  margin-left: 300px;
+.redux-text {
+  margin-left: 360px;
+  margin-top: 50px;
 }
 /**/
 /**/
-.flex-3-redux {
+.flex-3-cypress {
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
   width: 622px;
 }
-.inside-3-redux {
+.inside-3-cypress {
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -700,12 +706,12 @@ button:active {
     rgba(45, 35, 66, 0.3) 10px 14px 26px -6px, #d6d6e7 1px -1px 4px inset;
   background-color: #475163;
 }
-.inside-3-redux h4 {
+.inside-3-cypress h4 {
   top: 10px;
   left: 15px;
   position: absolute;
 }
-.icon-3-redux {
+.icon-3-cypress {
   border-top-left-radius: 10px;
   display: block;
   height: 111px;
@@ -716,14 +722,14 @@ button:active {
   top: 40px;
   width: 171px;
 }
-.inside-3-redux:hover {
+.inside-3-cypress:hover {
   transition: all 2s ease;
   background-color: #b1ad83;
   box-shadow: 5px 10px 15px -5px #b1ad83;
   color: #fff;
   opacity: 0;
 }
-.redux-secret-3 {
+.cypress-secret-3 {
   width: 400px;
   margin-right: -50px;
   margin-top: -200px;
@@ -732,13 +738,15 @@ button:active {
   color: black;
   background-color: white;
 }
-.icon-3-redux p {
+.icon-3-cypress p {
   margin-bottom: 5px;
   margin-top: -5px;
   margin-left: 10px;
 }
-.icon-3-redux img {
-  height: 140px;
+.icon-3-cypress img {
+  height: 100px;
+  margin-top: 30px;
+  margin-left: -50px;
 }
 /**/
 /**/

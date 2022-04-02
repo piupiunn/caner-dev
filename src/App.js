@@ -31,7 +31,7 @@ function App() {
       <div className="flex-1-me">
         <div className="inside-1-me">
           <p className="me-1">
-            <b>Hellooo. I'm Caner.</b>
+            <b>Hell. I'm Caner.</b>
           </p>
           <p className="me-2">
             <b> And these are my skills. </b>
@@ -125,12 +125,12 @@ function App() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png"
               alt="*"
             />
-            <p>Git</p>
+            <p></p>
             <img
               src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
               alt="*"
             />
-            <p>Github</p>
+            <p></p>
           </div>
         </div>
         <img
@@ -147,7 +147,7 @@ function App() {
               src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
               alt="*"
             />
-            <p>Firebase</p>
+            <p></p>
           </div>
         </div>
         <img
@@ -156,60 +156,60 @@ function App() {
           alt=""
         />
       </div>
-      <div className="flex-3-npm">
-        <div className="inside-3-npm">
-          <h4>Package manager</h4>
-          <div className="icon-3-npm">
+      <div className="flex-3-api">
+        <div className="inside-3-api">
+          <h4>Rest API with JSON Server</h4>
+          <div className="icon-3-api">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png"
+              src="https://devnot.com/wp-content/uploads/2017/04/jsonapi.png"
               alt="*"
             />
-            <p>npm</p>
+            <p></p>
           </div>
         </div>
         <img
-          className="npm-secret-3"
+          className="api-secret-3"
           src="https://venov.com.tr/templates/nova/img/gtav.png"
-          alt=""
-        />
-      </div>
-      <div className="flex-3-formatters">
-        <div className="inside-3-formatters">
-          <h4>Linters and Formatters</h4>
-          <div className="icon-3-formatters">
-            <img
-              className="img-1"
-              src="https://seeklogo.com/images/P/prettier-logo-D5C5197E37-seeklogo.com.png"
-              alt="*"
-            />
-            <p>Prettier</p>
-            <img
-              className="img-2"
-              src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.2.3/1642067257652/Microsoft.VisualStudio.Services.Icons.Default"
-              alt=""
-            />
-            <p className="eslint">ESLint</p>
-          </div>
-        </div>
-        <img
-          className="formatters-secret-3"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Godfather.svg/1200px-The_Godfather.svg.png"
           alt=""
         />
       </div>
       <div className="flex-3-redux">
         <div className="inside-3-redux">
-          <h4>Alternate of Context</h4>
+          <h4>SSR and Alternate of Context</h4>
           <div className="icon-3-redux">
             <img
-              src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png"
+              className="img-1"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
               alt="*"
             />
-            <p> Redux </p>
+            <p className="next-text"></p>
+            <img
+              className="img-2"
+              src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png"
+              alt=""
+            />
+            <p className="redux-text">Redux</p>
           </div>
         </div>
         <img
           className="redux-secret-3"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Godfather.svg/1200px-The_Godfather.svg.png"
+          alt=""
+        />
+      </div>
+      <div className="flex-3-cypress">
+        <div className="inside-3-cypress">
+          <h4>Testing</h4>
+          <div className="icon-3-cypress">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png"
+              alt="*"
+            />
+            <p> </p>
+          </div>
+        </div>
+        <img
+          className="cypress-secret-3"
           src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dune_2021_transparent_logo.png"
           alt=""
         />
