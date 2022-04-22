@@ -31,7 +31,7 @@ function App() {
       <div className="flex-1-me">
         <div className="inside-1-me">
           <p className="me-1">
-            <b>Hell. I'm Caner.</b>
+            <b>Hello. I'm Caner.</b>
           </p>
           <p className="me-2">
             <b> And these are my skills. </b>
