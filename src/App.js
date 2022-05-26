@@ -14,9 +14,7 @@ function App() {
               <b>My Linkedin</b>
             </a>
           </p>
-          <p>
-            <b>My Phone: +090 544-446-0073</b>
-          </p>
+
           <p>
             <a
               href="https://github.com/piupiunn"
