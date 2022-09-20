@@ -1,0 +1,91 @@
+.project {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  margin-bottom: 10%;
+  border-radius: 6px;
+}
+
+.project-info-p-parent {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+}
+.project-info {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 500ms linear;
+  margin: auto;
+  display: none;
+}
+
+.show {
+  display: block;
+  transition: opacity 500ms ease-in-out;
+}
+
+.project img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5);
+  transition: filter 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+.project img:hover {
+  filter: brightness(1);
+  transition: filter 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+.to-the-project-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -80px;
+  color: white;
+  background-color: rgba(69, 171, 135, 0.796);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  padding: 6px 16px;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+.to-the-project-button:hover {
+  background-color: rgba(82, 201, 159, 0.796);
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+.to-the-project-button:focus {
+  outline: 1px transparent;
+}
+
+.about-the-project-button {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  color: white;
+  background-color: rgba(170, 228, 235, 0.794);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  padding: 6px 16px;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+.about-the-project-button:hover {
+  background-color: rgba(148, 200, 205, 0.794);
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.about-the-project-button:focus {
+  outline: 1px transparent;
+}

@@ -1,0 +1,155 @@
+.show-contact-info {
+  opacity: 1 !important;
+  transition: opacity 0.5s linear;
+}
+.navbar {
+  width: 8%;
+  height: 10vw;
+  border-radius: 7px;
+  background: #b5a4a48e;
+  display: inline-flex;
+  gap: 5px;
+  padding: 0.4em;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.navbar p {
+  height: 100%;
+  flex: 1;
+
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.5s;
+  background: #2121218f;
+  border: 1px solid #ff5a91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar p:hover {
+  flex: 4;
+}
+.seriousness {
+  font-size: 14px;
+}
+.navbar p button {
+  min-width: 14em;
+  padding: 0.5em;
+
+  font-size: 0.5vw;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
+  text-transform: uppercase;
+
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+}
+
+.navbar p:hover button {
+  transform: rotate(0);
+}
+
+.navbar button {
+  padding: 20px 60px;
+  background-color: rgba(0, 0, 0, 0.441);
+  align-items: center;
+
+  border: none;
+  font-size: 18px;
+  position: relative;
+  /* overflow: hidden; */
+  transition: 500ms;
+}
+
+.navbar button span {
+  color: white !important;
+  position: relative;
+  transition: 500ms;
+  transition-delay: 500ms;
+  font-size: 0.5vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.navbar button:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transition: 500ms;
+  color: white !important;
+  transition-delay: 500ms;
+  background-color: red;
+  box-shadow: 0 0 10px red, 0 0 30px red, 0 0 50px red;
+}
+
+.navbar button div {
+  transition: 500ms;
+  position: absolute;
+  background-color: red;
+  color: white !important;
+  box-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+
+.navbar button .top {
+  width: 5px;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
+
+.navbar button .bottom {
+  width: 5px;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar button .left {
+  width: 2px;
+  height: 5px;
+  top: 0;
+  left: 0;
+}
+
+.navbar button .right {
+  width: 2px;
+  height: 7px;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar button:hover {
+  color: white;
+}
+
+.navbar button:hover span {
+  color: white;
+}
+
+.navbar button:hover:before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar button:hover .top,
+.navbar button:hover .bottom {
+  width: 100%;
+}
+
+.navbar button:hover .left,
+.navbar button:hover .right {
+  height: 100%;
+}

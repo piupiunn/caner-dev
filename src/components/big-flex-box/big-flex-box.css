@@ -1,0 +1,165 @@
+.big-flex-box,
+.big-flex-box::after {
+  font-size: 120px;
+  background: linear-gradient(45deg, transparent 5%, #ebebebdb 5%);
+  border: 1px solid black;
+  color: rgba(58, 58, 58, 0.784);
+  letter-spacing: 3px;
+  outline: transparent;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  display: grid;
+  border-radius: 7px;
+  height: 100%;
+}
+/**
+.big-flex-box:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  content: "TALENT GAINED";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  clip-path: var(--slice-0);
+}
+*/
+.big-flex-box:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+.big-flex-title {
+  font-size: 0.6vw;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.big-flex-title h1 {
+  font-size: 0.6vw;
+}
+
+.big-flex-img {
+  width: 20%;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+  scale: 0.7;
+}
+
+.big-flex-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.big-flex-title2 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.big-flex-title2 h1 {
+  font-size: 0.6vw;
+}
+
+.background-1 {
+  background-color: #aae3ea;
+}
+
+.background-2 {
+  background-color: #45ab88;
+}
+
+.background-3 {
+  background-color: #444444;
+}
+
+.background-4 {
+  background-color: #e7e7e9;
+}
+
+.background-5 {
+  background-color: #ba545e;
+}
+
+.background-6 {
+  background-color: #b1ad83;
+}
+
+.background-7 {
+  background-color: #aae3eb;
+}
+
+.big-react-img-style {
+  width: 35%;
+  height: 140px;
+}
+.big-react-img-style img {
+  width: 90%;
+  height: 100%;
+}

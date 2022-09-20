@@ -1,0 +1,43 @@
+.top-info {
+  margin-top: -10%;
+  width: 100%;
+}
+.main-infos p {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  letter-spacing: 1px;
+  font-size: 1vw;
+  line-height: 90px;
+}
+
+.see-you-p {
+  margin-left: 48%;
+}
+
+.hola-gif {
+  width: 120px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+@media (max-width: 1101px) {
+  .hola-gif {
+    width: 60px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 1201px) {
+  .hola-gif {
+    width: 80px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1401px) {
+  .hola-gif {
+    width: 100px;
+    height: 50px;
+  }
+}

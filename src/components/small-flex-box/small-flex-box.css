@@ -1,0 +1,136 @@
+.small-flex-box,
+.small-flex-box::after {
+  font-size: 80px;
+  background: linear-gradient(45deg, transparent 5%, #ebebebdb 5%);
+  border: 1px solid black;
+  color: rgba(58, 58, 58, 0.784);
+  letter-spacing: 3px;
+  outline: transparent;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  display: grid;
+  border-radius: 7px;
+  height: 100%;
+}
+
+.small-flex-title {
+  font-size: 0.5vw;
+  margin-left: 20px;
+  width: 100%;
+}
+.small-flex-title h1 {
+  font-size: 0.7vw;
+}
+
+.small-flex-img {
+  width: 45%;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  scale: 0.6;
+}
+
+.small-flex-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-flex-title2 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.small-flex-title2 h1 {
+  font-size: 0.7vw;
+}
+
+.background-1 {
+  background-color: #45ab88;
+}
+
+.background-2 {
+  background-color: #444444;
+}
+
+.background-3 {
+  background-color: #aae3ea;
+}
+
+.background-4 {
+  background-color: #ba545e;
+}
+
+.background-5 {
+  background-color: #cdcdcd;
+}
+
+.background-6 {
+  background-color: #b1ad83;
+}
+
+.background-7 {
+  background-color: #aae3eb;
+}
+
+.small-api-img-style {
+  margin-bottom: 10%;
+  width: 70%;
+  height: unset;
+}
+
+.small-redux-img-style {
+  margin-bottom: 15%;
+  width: 40%;
+}
+
+.small-responsive-img-style {
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.small-styled-img-style {
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.small-bootstrap-img-style {
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.small-reactstrap-img-style {
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.small-grapql-img-style {
+  margin-bottom: 10%;
+  width: 40%;
+}
+
+.small-git-img-style {
+  width: 50%;
+  height: 70px;
+}
+
+.small-firebase-img-style {
+  width: 55%;
+  height: 120px;
+}
+
+.small-cypress-img-style {
+  width: 55%;
+  height: 80px;
+}
