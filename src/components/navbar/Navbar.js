@@ -22,7 +22,14 @@ export default function Navbar() {
       <div class={`navbar ${showContact && "show-contact-info"}`}>
         <p>
           <button>
-            <span>My Linkedin</span>
+            <span>
+              <a
+                className="navbar-link"
+                href="https://www.linkedin.com/in/caner-demir-frontend-developer/"
+              >
+                My Linkedin
+              </a>
+            </span>
             <div class="top"></div>
             <div class="left"></div>
             <div class="bottom"></div>
@@ -31,7 +38,11 @@ export default function Navbar() {
         </p>
         <p>
           <button>
-            <span>My Github</span>
+            <span>
+              <a className="navbar-link" href="https://github.com/piupiunn">
+                My Github
+              </a>
+            </span>
             <div class="top"></div>
             <div class="left"></div>
             <div class="bottom"></div>

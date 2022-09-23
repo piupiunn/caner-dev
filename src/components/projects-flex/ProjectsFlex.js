@@ -47,6 +47,7 @@ export default function ProjectsFlex() {
         </div>
 
         <Projects
+          projectLink={"https://canerdemir-netflix-clone.netlify.app/"}
           bigImg
           projectImg={netflixclone}
           projectDetails={
@@ -60,10 +61,10 @@ export default function ProjectsFlex() {
                   </span>{" "}
                 </div>
                 <p>
-                  +Kullandığım Api, kütüphane ve teknolojiler; Themoviedb Api,
-                  Youtube Api, Movie Trailer Api, axios, React.js, CSS. Bu
-                  siteyi yapmakta ki amacım tek bir Api'den gelen verileri en
-                  üst düzeyde kullanabilmekti.
+                  +Api, library and technologies I use; Themoviedb Api, Youtube
+                  Api, Movie Trailer Api, axios, React.js, CSS. My purpose in
+                  making this site was to use the data from a single API at the
+                  highest level.
                 </p>
               </div>
 
@@ -76,7 +77,8 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project1-p1">
-                  +Api'den bilgi çekip state'e geçme işlemi.
+                  +The process of extracting information from API and passing to
+                  state.
                 </p>
               </div>
 
@@ -89,10 +91,10 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project1-p2">
-                  +Api film konularını direkt isimle vermek yerine sayılarla
-                  veriyordu. Bende hangi sayının hangi konuya ait olduğunu
-                  bulup, karşılık gelen konuları yazdım ve bunun sayfada
-                  gösterilmesi için bir fonksiyon oluşturdum.
+                  +Api was giving the movie subjects in numbers instead of
+                  giving names directly. So I found which number belongs to
+                  which topic, wrote the corresponding topics and created a
+                  function to display it on the page.
                 </p>
               </div>
 
@@ -106,10 +108,10 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project1-p3">
-                  +Api puan ortalamasını bazen 8.675 gibi bir küsuratlı sayıyla
-                  veriyordu. Daha güzel gözükeceğini düşündüğüm için Sadece ilk
-                  kusuratlı kısmın gözükmesini sağlayacak bir fonksiyon yazdım.
-                  Örneğin 8.675 yerine 8.6. gözükmesi gibi.
+                  +Sometimes Api gave the average score with a fractional number
+                  like 8.675. Since I thought it would look better, I wrote a
+                  function that will only show the first fractional part. For
+                  example 8.6 instead of 8.675.
                 </p>
               </div>
 
@@ -123,9 +125,9 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project1-p4">
-                  +Api'den gelen filmin açıklma kısmı eğer 150 karakterden
-                  büyükse kalan kısmın gözükmemesi ve '...’ eklenmesi için bir
-                  fonksiyon yazdım.
+                  +If the description of the movie is larger than 150
+                  characters, I wrote a function so that the rest is not visible
+                  and added '"..." to the end of the description
                 </p>
               </div>
 
@@ -138,9 +140,9 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project1-p5">
-                  +Banner kısmında Api'den gelen populer kategorisinden random
-                  bir şekilde herhangi bir filmi banner'da gösterecek bir
-                  fonksiyon yazdım.
+                  +In the banner section, I wrote a function that will randomly
+                  display any movie on the banner from the popular category from
+                  Api.
                 </p>
               </div>
 
@@ -154,13 +156,13 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project1-p6">
-                  +Banner kısmında play tuşuna basıldığında arka planda youtube
-                  api'sini kullanarak film fragmanını youtube aratmayı
-                  sağlayacak bir fonksiyon yazdım. Fonksiyon ilk çıkan arama
-                  sonucunu gösteriyor. Yani bazen alakasız bir video yada
-                  fragman yerine oyuncularla röportaj videosu çıkartabiliyor.
-                  Eğer Video çıkmazsa sayfayı yenileyip başka bir filmde
-                  deneyebilirsiniz.
+                  +When the play button is pressed in the banner section, I
+                  wrote a function to search youtube for the movie trailer using
+                  the youtube api in the background. The function displays the
+                  first search result. In other words, sometimes instead of an
+                  irrelevant video or trailer, it can show an interview video
+                  with the actors. If the video does not come out, you can
+                  refresh the page and try another movie.
                 </p>
               </div>
 
@@ -174,8 +176,8 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project1-p7">
-                  +Kodun daha düzenli gözükmesi için api requestlerde yaptığım
-                  düzenleme.
+                  +The edit I made in the api requests, to make the code look
+                  more organized.
                 </p>
               </div>
 
@@ -189,11 +191,12 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project1-p8">
-                  +Api filmlerin yayınlanma tarihini sayı yerine yazı olarak
-                  veriyordu. Bende gelen datadan aralarda ki "-" işaretlerini
-                  çıkarıp, kalanı sayıya çevirip, eğer belirttiğim tarihten
-                  sonra yayınlanmışsa "New" yazısının çıkmasını sağlamak için
-                  bir fonksiyon yazdım.
+                  +Api was giving the release date of the movies as text instead
+                  of numbers. I removed the "-" signs in between from the
+                  incoming data and converted the remainder into numbers. And if
+                  the movie was published 2 months before the date the site was
+                  viewed at that moment, I wrote a function to make the text
+                  "New" appear.
                 </p>
               </div>
             </div>
@@ -201,6 +204,7 @@ export default function ProjectsFlex() {
         />
 
         <Projects
+          projectLink={"https://canerdemir-covid-tracker.netlify.app/"}
           projectImg={covidsite}
           projectDetails={
             <div>
@@ -213,11 +217,11 @@ export default function ProjectsFlex() {
                   </span>{" "}
                 </div>
                 <p>
-                  +Kullandığım Api, kütüphane ve teknolojiler; Leaflet Api,
-                  Disease Api, axios, React.js, CSS + The Material UI +
-                  Chart.js. Bu siteyi yapmakta ki amacım tamamen farklı amaçta
-                  ki iki farklı Api'nin bilgilerini birleştirip ortaya farklı
-                  bir şey çıkartmaktı.
+                  + Api, library and technologies I use; Leaflet Api, Disease
+                  Api, axios, React.js, CSS + The Material UI + Chart.js. My
+                  purpose in making this site was to combine the information of
+                  two totally different APIs with completely different purposes
+                  and create something different.
                 </p>
               </div>
 
@@ -230,14 +234,14 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project2-p1">
-                  +Leaflet Api'sinden gelen ve konum belirten "Circle"
-                  datasıyla, Disease Api'sinden gelen ülkerin covid sayılarını
-                  birleştirdim ve bu sayılarla "Circle" datasının alanını çarpıp
-                  ülkelerin covid durumuna göre büyüyüp küçülen halkalar elde
-                  ettim ve bunlara vakaya göre renk verdim. Bu halkalara
-                  tıkladığında "vaka", "ölüm" ve "iyileşme" bilgisini göstermek
-                  içinde Leaflet'in "Popup" componentiyle Disease Api'sinin
-                  bilgilerini birleştirdim.
+                  +I combined the "Circle" from the Leaflet Api and the covid
+                  numbers of the countries from the Disease Api. And I
+                  multiplied the area of ​​the "Circle" data with these numbers
+                  to get rings that grow and shrink according to the covid
+                  status of the countries and color them according to the case.
+                  I combined the information of Leaflet's "Popup" component with
+                  the Disease Api to show the "case", "death" and "healing"
+                  information when clicked on these rings.
                 </p>
               </div>
 
@@ -250,8 +254,8 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project2-p2">
-                  +Oluşturduğum tabloda ülkelerin vaka sayısını büyükten küçüğe
-                  sıralamak için bir fonksiyon yazdım.
+                  +I wrote a function to sort the number of cases of countries
+                  in the table I created, from largest to smallest.
                 </p>
               </div>
 
@@ -265,10 +269,12 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project2-p3">
-                  +Bir grafik oluşturmak için Disese Api'sinden gelen
-                  bilgilerle, Graph.js'i birleştirerek bir grafik elde ettim. Ve
-                  bu grafiğin artan oranlı olarak gözükmesi için bir fonksiyon
-                  yazdım.
+                  +I combined Graph.js with information from Disese Api to
+                  create a graph. And I wrote a function for this chart to
+                  properly show the daily ups and downs. If I didn't do this,
+                  even if 1 person was sick every day, this information would be
+                  added on top of the previous ones, and even if there was 1
+                  patient per day, the graph would go up at an increasing rate.
                 </p>
               </div>
 
@@ -282,14 +288,15 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project2-p4">
-                  +Bazı Api'den bilgi çekme ve bu bilgileri önceden oluşturulan
-                  componentlere geçme kısımları.
+                  +Part of pulling information from the api and passing that
+                  information to pre-created components.
                 </p>
               </div>
             </div>
           }
         />
         <Projects
+          projectLink={"https://caner-family-home-todo.firebaseapp.com/"}
           projectImg={familysite}
           projectDetails={
             <div>
@@ -302,14 +309,13 @@ export default function ProjectsFlex() {
                   </span>{" "}
                 </div>
                 <p>
-                  +Kullandığım Api, kütüphane ve teknolojiler; Firebase,
-                  React.js, CSS. Bu siteyi yapmakta ki amacım bir BaaS("Backend
-                  as a Service") kullanarak verileri backende kaydetmek,
-                  kaydedilen verileri geri çekmek, Api'den veri çkeip bunu
-                  backende kaydetip daha sonra tekrar kullanabilmekti. AWS
-                  yerine Firebase tercih etmenmin sebebi belirli bir datanın
-                  altında kullanımda AWS ilk sene ücretsizken, Firebase'in
-                  tamamen ücretsiz olması.
+                  +API, library and technologies I use; Firebase, React.js, CSS.
+                  My purpose of making this site is to save data in backend
+                  using a BaaS ("Backend as a Service"), retrieve saved data,
+                  extract data from Api, save in backend and reuse later. The
+                  reason I prefer Firebase over AWS is because for use under
+                  certain volume AWS is free for the first year whereas Firebase
+                  is completely free.
                 </p>
               </div>
 
@@ -323,9 +329,9 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project3-p1">
-                  +Todo oluşturmak, bunu kişi veya kişilere atamak, Api'den
-                  bilgi çekmek ve tüm bunların hepsinin backende kayıt edilmesi
-                  işlemlerinin bir kısmı.
+                  +Part of the process of creating Todo, assigning to a person
+                  or persons, pulling info from Api and saving all this in
+                  backend
                 </p>
               </div>
 
@@ -338,7 +344,7 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project3-p2">
-                  +Kayıtlı verilere ulaşmak için yazdığım Hook.
+                  +Hook I wrote to access the recorded data.
                 </p>
               </div>
 
@@ -352,7 +358,7 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project3-p3">
-                  +Gerçek zamanlı veriye ulaşmak için yazdığım Hook.
+                  +Hook I wrote to access real-time data.
                 </p>
               </div>
 
@@ -366,7 +372,7 @@ export default function ProjectsFlex() {
                 />
 
                 <p className="project3-p4">
-                  +Giriş yapma ve online-offline-durum Hook'u
+                  +Login and online-offline status hook
                 </p>
               </div>
 
@@ -379,14 +385,16 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project3-p5">
-                  +Yazdığım çıkış yapma ve kullanıcı online-offline durum
-                  Hook'u.
+                  +Logout and user online-offline status Hook.
                 </p>
               </div>
             </div>
           }
         />
         <Projects
+          projectLink={
+            "https://piupiunn.github.io/canerdemir-kitap-tavsiyeleri/"
+          }
           projectImg={kitapsite}
           projectDetails={
             <div>
@@ -399,18 +407,17 @@ export default function ProjectsFlex() {
                   </span>{" "}
                 </div>
                 <p>
-                  +Kullandığım Api, kütüphane ve teknolojiler; React.js, CSS.
-                  Tek bir book componenti üzerinden başka componentler
-                  oluşturmadan sadece proplar vererek farklı renklerde kitap
-                  componenetleri oluşturdum. Bu site gerçek bir domain adıyla
-                  yayında ve halihazır da gerçek ziyaretçiler alıyor. Hobi
-                  olarak kitap okumayı seviyorum ve okumaya ilk kez başladığımda
-                  belirli bir kalitenin üstünde ki kitapları bu kadar fazla
-                  kitap arasında bulmakta zorlanmıştım. Yeni okumaya
-                  başlayacaklar bu zorluğu yaşamasın istedim. Ayrıca tamamen bir
-                  kendi kendine öğrenenim ve bilgilerimin çoğunu internette
-                  araştırarak öğreniyorum, bildiğim bir konuda internet
-                  topluluğuna borcumu ödemek istedim.
+                  +API, library and technologies I use; React.js, CSS. I created
+                  book components in different colors by just giving props
+                  without creating other components on a single book component.
+                  This site is live with a real domain and is already getting
+                  real visitors. I love reading books as a hobby and when I
+                  first started reading, I had a hard time finding a book above
+                  a certain quality among so many books. I wanted new readers
+                  not to have this hassle. I am also a completely self-learner
+                  and I learn most of my knowledge by researching on the
+                  internet, so also I wanted to pay my debt to the internet
+                  community on a subject I know.
                 </p>
               </div>
 
@@ -423,14 +430,15 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project4-p1">
-                  +Book componenetine verdiğim propları çağırarak aynı
-                  componentten farklılarını türetmem.
+                  +I do derive different ones from the same component by calling
+                  the props I have given to the Book component.
                 </p>
               </div>
             </div>
           }
         />
         <Projects
+          projectLink={"https://canerdemir-game.netlify.app/"}
           projectImg={gamesite}
           projectDetails={
             <div className="">
@@ -443,8 +451,8 @@ export default function ProjectsFlex() {
                   </span>{" "}
                 </div>
                 <p>
-                  +Kullandığım Api, kütüphane ve teknolojiler; React.js, CSS.
-                  Benim küçük sevgili ilk projem ^^
+                  +Api, library and technologies I use; React.js, CSS. My little
+                  lovely first project ^^
                 </p>
               </div>
 
@@ -457,10 +465,10 @@ export default function ProjectsFlex() {
                   alt=""
                 />
                 <p className="project5-p1">
-                  +Kart seçimi, kart seçimlerinin eşleşmesi veya tersi durumda
-                  olacaklar, oyuna tekrar başlandığında kart destesinin random
-                  şekilde tekrar dağıtılması, bir oyunda kaç hamle yapıldığının
-                  belirtilmesi için gerekli işlemler.
+                  +Card selection, matching of card selections or vice versa,
+                  the functions I wrote for random redistribution of the card
+                  deck when the game is restarted, to show how many moves have
+                  been made in a game.
                 </p>
               </div>
 
@@ -472,7 +480,7 @@ export default function ProjectsFlex() {
                   src={cardGame2}
                   alt=""
                 />
-                <p className="project5-p2">+Kartların çevrilmesi işlemi.</p>
+                <p className="project5-p2">+The process of flip the cards.</p>
               </div>
             </div>
           }

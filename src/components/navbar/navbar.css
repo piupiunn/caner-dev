@@ -29,6 +29,11 @@
   align-items: center;
 }
 
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar p:hover {
   flex: 4;
 }

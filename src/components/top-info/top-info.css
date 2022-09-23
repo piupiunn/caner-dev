@@ -2,13 +2,13 @@
   margin-top: -10%;
   width: 100%;
 }
-.main-infos p {
+.main-infos-parent-p {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 1%;
   letter-spacing: 1px;
   font-size: 1vw;
-  line-height: 90px;
+  line-height: 50px;
 }
 
 .see-you-p {

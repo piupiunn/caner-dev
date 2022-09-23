@@ -11,8 +11,8 @@ export default function TopInfo() {
     <div className="container">
       <div className="top-info">
         <div className="main-infos">
-          <p>
-            Hi <img className="hola-gif" src={holagif} alt="" />, I'm Caner.{" "}
+          <p className="main-infos-parent-p">
+            Hi <img className="hola-gif" src={holagif} alt="" />, I'm Caner.
             <p className="middle-info-p">
               The following are all my talents
               <img className="hola-gif" src={talentgif} alt="" /> and projects
@@ -20,7 +20,7 @@ export default function TopInfo() {
               completed. If you want to meet, contact details are on the upper
               left.
               <p className="see-you-p">
-                See you ^^ <img className="hola-gif" src={byegif} alt="" />{" "}
+                See you ^^ <img className="hola-gif" src={byegif} alt="" />
               </p>
             </p>
           </p>

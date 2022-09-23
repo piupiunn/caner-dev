@@ -3,7 +3,12 @@ import React, { useState } from "react";
 //style
 import "./projects.css";
 
-export default function Projects({ projectImg, projectDetails, detailButton }) {
+export default function Projects({
+  projectImg,
+  projectDetails,
+  detailButton,
+  projectLink,
+}) {
   const [showInfo, setShowInfo] = useState(false);
 
   detailButton = document.querySelector(".about-the-project-button");
@@ -19,7 +24,9 @@ export default function Projects({ projectImg, projectDetails, detailButton }) {
         <p className={`project-info ${showInfo && "show"}`}>{projectDetails}</p>
       </div>
 
-      <button className="to-the-project-button">To the project </button>
+      <a href={projectLink}>
+        <button className="to-the-project-button">To the project </button>
+      </a>
       <button onClick={showDetails} className="about-the-project-button">
         About the project
       </button>
