@@ -46,7 +46,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -80px;
+  bottom: -78px;
   color: white;
   background-color: rgba(69, 171, 135, 0.796);
   border: 1px solid rgba(27, 31, 35, 0.15);
@@ -69,9 +69,9 @@
 .about-the-project-button {
   position: absolute;
   right: 0;
-  top: 18px;
+  top: 22px;
   color: white;
-  background-color: rgba(170, 228, 235, 0.794);
+  background-color: rgba(235, 170, 170, 0.794);
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;

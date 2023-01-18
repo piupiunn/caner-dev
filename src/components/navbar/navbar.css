@@ -2,8 +2,20 @@
   opacity: 1 !important;
   transition: opacity 0.5s linear;
 }
+.seriousness {
+  animation: blinker 1s linear infinite;
+}
+.seriousness-no-effect {
+  animation: none !important;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    color: red;
+  }
+}
 .navbar {
-  width: 8%;
+  width: 160px;
   height: 10vw;
   border-radius: 7px;
   background: #b5a4a48e;
@@ -32,6 +44,7 @@
 .navbar-link {
   text-decoration: none;
   color: white;
+  font-size: 12px;
 }
 
 .navbar p:hover {
@@ -39,6 +52,9 @@
 }
 .seriousness {
   font-size: 14px;
+}
+.seriousness:hover {
+  cursor: pointer;
 }
 .navbar p button {
   min-width: 14em;

@@ -47,6 +47,103 @@ export default function ProjectsFlex() {
         </div>
 
         <Projects
+          projectLink={"https://caner-family-home-todo.firebaseapp.com/"}
+          projectImg={familysite}
+          projectDetails={
+            <div>
+              <div className="project-detail-info">
+                <div className="for-codes">
+                  <p className="for-codes-p"> Short look to codes</p>{" "}
+                  <span>
+                    {" "}
+                    <AiOutlineArrowDown className="project-arrow" />{" "}
+                  </span>{" "}
+                </div>
+                <p>
+                  +API, library and technologies I use; Firebase, React.js, CSS.
+                  My purpose of making this site is to save data in backend
+                  using a BaaS ("Backend as a Service"), retrieve saved data,
+                  extract data from Api, save in backend and reuse later. The
+                  reason I prefer Firebase over AWS is because for use under
+                  certain volume AWS is free for the first year whereas Firebase
+                  is completely free.
+                </p>
+              </div>
+
+              <div className="project-detail-info">
+                <img className="project3-img1" src={firebaseOutHook} alt="" />
+
+                <img
+                  className="project3-big-img1 mobile-big"
+                  src={createTodo2}
+                  alt=""
+                />
+
+                <p className="project3-p1">
+                  +Part of the process of creating Todo, assigning to a person
+                  or persons, pulling info from Api and saving all this in
+                  backend
+                </p>
+              </div>
+
+              <div className="project-detail-info">
+                <img className="project3-img2" src={firebaseStore} alt="" />
+
+                <img
+                  className="project3-big-img2 mobile-big"
+                  src={firebaseStore}
+                  alt=""
+                />
+                <p className="project3-p2">
+                  +Hook I wrote to access the recorded data.
+                </p>
+              </div>
+
+              <div className="project-detail-info">
+                <img className="project3-img3" src={firebaseDocument} alt="" />
+
+                <img
+                  className="project3-big-img3 mobile-big"
+                  src={firebaseDocument}
+                  alt=""
+                />
+
+                <p className="project3-p3">
+                  +Hook I wrote to access real-time data.
+                </p>
+              </div>
+
+              <div className="project-detail-info">
+                <img className="project3-img4" src={firebaseLogin} alt="" />
+
+                <img
+                  className="project3-big-img4 mobile-big"
+                  src={firebaseLogin}
+                  alt=""
+                />
+
+                <p className="project3-p4">
+                  +Login and online-offline status hook
+                </p>
+              </div>
+
+              <div className="project-detail-info">
+                <img className="project3-img5" src={createTodo1} alt="" />
+
+                <img
+                  className="project3-big-img5 mobile-big"
+                  src={firebaseOutHook}
+                  alt=""
+                />
+                <p className="project3-p5">
+                  +Logout and user online-offline status Hook.
+                </p>
+              </div>
+            </div>
+          }
+        />
+
+        <Projects
           projectLink={"https://canerdemir-netflix-clone.netlify.app/"}
           bigImg
           projectImg={netflixclone}
@@ -295,102 +392,7 @@ export default function ProjectsFlex() {
             </div>
           }
         />
-        <Projects
-          projectLink={"https://caner-family-home-todo.firebaseapp.com/"}
-          projectImg={familysite}
-          projectDetails={
-            <div>
-              <div className="project-detail-info">
-                <div className="for-codes">
-                  <p className="for-codes-p"> Short look to codes</p>{" "}
-                  <span>
-                    {" "}
-                    <AiOutlineArrowDown className="project-arrow" />{" "}
-                  </span>{" "}
-                </div>
-                <p>
-                  +API, library and technologies I use; Firebase, React.js, CSS.
-                  My purpose of making this site is to save data in backend
-                  using a BaaS ("Backend as a Service"), retrieve saved data,
-                  extract data from Api, save in backend and reuse later. The
-                  reason I prefer Firebase over AWS is because for use under
-                  certain volume AWS is free for the first year whereas Firebase
-                  is completely free.
-                </p>
-              </div>
 
-              <div className="project-detail-info">
-                <img className="project3-img1" src={firebaseOutHook} alt="" />
-
-                <img
-                  className="project3-big-img1 mobile-big"
-                  src={createTodo2}
-                  alt=""
-                />
-
-                <p className="project3-p1">
-                  +Part of the process of creating Todo, assigning to a person
-                  or persons, pulling info from Api and saving all this in
-                  backend
-                </p>
-              </div>
-
-              <div className="project-detail-info">
-                <img className="project3-img2" src={firebaseStore} alt="" />
-
-                <img
-                  className="project3-big-img2 mobile-big"
-                  src={firebaseStore}
-                  alt=""
-                />
-                <p className="project3-p2">
-                  +Hook I wrote to access the recorded data.
-                </p>
-              </div>
-
-              <div className="project-detail-info">
-                <img className="project3-img3" src={firebaseDocument} alt="" />
-
-                <img
-                  className="project3-big-img3 mobile-big"
-                  src={firebaseDocument}
-                  alt=""
-                />
-
-                <p className="project3-p3">
-                  +Hook I wrote to access real-time data.
-                </p>
-              </div>
-
-              <div className="project-detail-info">
-                <img className="project3-img4" src={firebaseLogin} alt="" />
-
-                <img
-                  className="project3-big-img4 mobile-big"
-                  src={firebaseLogin}
-                  alt=""
-                />
-
-                <p className="project3-p4">
-                  +Login and online-offline status hook
-                </p>
-              </div>
-
-              <div className="project-detail-info">
-                <img className="project3-img5" src={createTodo1} alt="" />
-
-                <img
-                  className="project3-big-img5 mobile-big"
-                  src={firebaseOutHook}
-                  alt=""
-                />
-                <p className="project3-p5">
-                  +Logout and user online-offline status Hook.
-                </p>
-              </div>
-            </div>
-          }
-        />
         <Projects
           projectLink={
             "https://piupiunn.github.io/canerdemir-kitap-tavsiyeleri/"
@@ -429,10 +431,7 @@ export default function ProjectsFlex() {
                   src={bookCategory}
                   alt=""
                 />
-                <p className="project4-p1">
-                  +I do derive different ones from the same component by calling
-                  the props I have given to the Book component.
-                </p>
+                <p className="project4-p1">+Same component, different props.</p>
               </div>
             </div>
           }

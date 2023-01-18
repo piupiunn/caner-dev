@@ -3,20 +3,24 @@ import "./navbar.css";
 
 export default function Navbar() {
   const [showContact, setShowContact] = useState(false);
+  const navbarText = document.querySelector(".seriousness");
 
   const showContactInfo = (e) => {
     setShowContact(!showContact);
 
     showContact
       ? (document.querySelector(".seriousness").textContent =
-          "Then click for some seriousness  .")
+          "Then click for some seriousness.")
       : (document.querySelector(".seriousness").textContent =
-          "  Enough of this seriousness");
+          "Enough of this seriousness");
   };
 
   return (
     <div className="navbar-parent">
-      <p className="seriousness" onClick={showContactInfo}>
+      <p
+        className={`seriousness ${showContact && "seriousness-no-effect"}`}
+        onClick={showContactInfo}
+      >
         Then click for some seriousness
       </p>
       <div class={`navbar ${showContact && "show-contact-info"}`}>
@@ -24,10 +28,12 @@ export default function Navbar() {
           <button>
             <span>
               <a
+                target="_blank"
+                rel="noreferrer"
                 className="navbar-link"
                 href="https://www.linkedin.com/in/caner-demir-frontend-developer/"
               >
-                My Linkedin
+                Linkedin
               </a>
             </span>
             <div class="top"></div>
@@ -39,8 +45,13 @@ export default function Navbar() {
         <p>
           <button>
             <span>
-              <a className="navbar-link" href="https://github.com/piupiunn">
-                My Github
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="navbar-link"
+                href="https://github.com/piupiunn"
+              >
+                Github
               </a>
             </span>
             <div class="top"></div>

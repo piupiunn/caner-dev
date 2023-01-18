@@ -23,12 +23,13 @@
     text-align: center !important;
     align-items: center !important;
     justify-content: center !important;
+    margin-left: 0px !important;
   }
   .big-flex-title h1 {
-    font-size: 10px !important;
+    font-size: 16px !important;
   }
   .big-flex-title2 h1 {
-    font-size: 9px !important;
+    font-size: 16px !important;
   }
   .small-flex-title {
     text-align: center !important;
@@ -37,10 +38,10 @@
     margin-left: unset !important;
   }
   .small-flex-title h1 {
-    font-size: 7px !important;
+    font-size: 13px !important;
   }
   .small-flex-title2 h1 {
-    font-size: 6px !important;
+    font-size: 12px !important;
   }
   .small-flex-parent {
     margin-top: 150px !important;
@@ -49,7 +50,7 @@
     margin-top: 500px !important;
   }
   .main-infos p {
-    font-size: 10px !important;
+    font-size: 16px !important;
   }
   .hola-gif {
     scale: 0.85 !important;
@@ -72,7 +73,7 @@
     font-size: 40px !important;
   }
   .seriousness {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
   .project-p1 {
     margin-left: 50% !important;
