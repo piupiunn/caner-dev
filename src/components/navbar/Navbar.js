@@ -21,7 +21,7 @@ export default function Navbar() {
         className={`seriousness ${showContact && "seriousness-no-effect"}`}
         onClick={showContactInfo}
       >
-        Then click for some seriousness
+        CONTACT
       </p>
       <div class={`navbar ${showContact && "show-contact-info"}`}>
         <p>

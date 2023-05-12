@@ -2,18 +2,7 @@
   opacity: 1 !important;
   transition: opacity 0.5s linear;
 }
-.seriousness {
-  animation: blinker 1s linear infinite;
-}
-.seriousness-no-effect {
-  animation: none !important;
-}
-@keyframes blinker {
-  50% {
-    opacity: 0;
-    color: red;
-  }
-}
+
 .navbar {
   width: 160px;
   height: 10vw;
