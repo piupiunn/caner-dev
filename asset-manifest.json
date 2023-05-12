@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caner-dev-site/static/css/main.5aba97fa.css",
-    "main.js": "/caner-dev-site/static/js/main.43531f24.js",
+    "main.css": "/caner-dev-site/static/css/main.da2ef5a4.css",
+    "main.js": "/caner-dev-site/static/js/main.33180776.js",
     "static/media/hola.gif": "/caner-dev-site/static/media/hola.d0bacf77e46b5ac3016f.gif",
     "static/media/bye.gif": "/caner-dev-site/static/media/bye.c997ab8d779ddb05e5ef.gif",
     "static/media/create-todo-4.jpg": "/caner-dev-site/static/media/create-todo-4.3dfeac99118e9a97c684.jpg",
@@ -43,11 +43,11 @@
     "static/media/firebase.png": "/caner-dev-site/static/media/firebase.b69199ed399e5ebef49e.png",
     "static/media/bootstrap.png": "/caner-dev-site/static/media/bootstrap.167ad18f3e8b956b22b6.png",
     "index.html": "/caner-dev-site/index.html",
-    "main.5aba97fa.css.map": "/caner-dev-site/static/css/main.5aba97fa.css.map",
-    "main.43531f24.js.map": "/caner-dev-site/static/js/main.43531f24.js.map"
+    "main.da2ef5a4.css.map": "/caner-dev-site/static/css/main.da2ef5a4.css.map",
+    "main.33180776.js.map": "/caner-dev-site/static/js/main.33180776.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aba97fa.css",
-    "static/js/main.43531f24.js"
+    "static/css/main.da2ef5a4.css",
+    "static/js/main.33180776.js"
   ]
 }
