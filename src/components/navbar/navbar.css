@@ -1,6 +1,8 @@
 .show-contact-info {
   opacity: 1 !important;
   transition: opacity 0.5s linear;
+  z-index: 50;
+  position: relative;
 }
 
 .navbar {
